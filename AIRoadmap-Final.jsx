@@ -680,7 +680,7 @@ function TypeBadge({ type, free }) {
   );
 }
 
-export default function Roadmap() {
+export default function AIRoadmap() {
   const [tab, setTab] = useState("roadmap");
   const [selectedPhase, setSelectedPhase] = useState(null);
   const [openTrack, setOpenTrack] = useState(null);
