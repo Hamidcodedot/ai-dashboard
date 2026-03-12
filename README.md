@@ -1,16 +1,41 @@
-# React + Vite
+# 🧠 AI Learning & Projects Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal roadmap dashboard built to guide my journey toward becoming an **AI Scientist and Engineer** — structured, sequenced, and self-paced.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What is this?
 
-## React Compiler
+This is an interactive dashboard that organizes everything I need to learn and build in the field of AI — in the right order. No more jumping between random resources or losing track of progress.
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+It covers two main tracks:
 
-## Expanding the ESLint configuration
+- **📚 Learning Roadmap** — A curated, sequenced path through AI/ML concepts, with direct links to books, video lectures, research papers, and articles for each topic.
+- **🛠️ Projects Roadmap** — A structured list of AI projects to build, ordered by complexity and concept dependency, so each project reinforces what was just learned.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Why I built this
+
+Learning AI without structure is chaotic. This dashboard gives me a single place to:
+
+- Follow a clear sequence from fundamentals to advanced topics
+- Access all learning resources (books, videos, articles) in one view
+- Track which projects to build next, and why
+
+---
+
+## Tech Stack
+
+- **React / Next.js**
+- **JSX**
+
+---
+
+## Status
+
+🚧 Actively in progress — roadmap and resources are updated as I learn and discover better materials.
+
+---
+
+*Built for personal use, shared publicly in case it helps someone else on the same path.*
