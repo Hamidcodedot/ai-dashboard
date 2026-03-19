@@ -1,6 +1,7 @@
 import { useState } from "react"
 import Roadmap from "./Roadmap"
 import ProjectLab from "./ProjectLab"
+import Competitions from "./Competitions"
 
 export default function App() {
   const [page, setPage] = useState("roadmap")
@@ -11,7 +12,7 @@ export default function App() {
         background: "#020209", borderBottom: "1px solid #0f172a",
         display: "flex", gap: "0", padding: "0 24px", fontFamily: "monospace"
       }}>
-        {[["roadmap","🗺 ROADMAP"], ["projects","⚗ PROJECT LAB"]].map(([key, label]) => (
+        {[["roadmap","🗺 ROADMAP"], ["projects","⚗ PROJECT LAB"], ["competitions", "🏆 ARENA"]].map(([key, label]) => (
           <button key={key} onClick={() => setPage(key)} style={{
             background: "none", border: "none",
             borderBottom: page === key ? "2px solid #38bdf8" : "2px solid transparent",
@@ -24,6 +25,7 @@ export default function App() {
       <div style={{ paddingTop: "48px" }}>
         {page === "roadmap"  && <Roadmap />}
         {page === "projects" && <ProjectLab />}
+        {page === "competitions" && <Competitions />}
       </div>
     </div>
   )
